@@ -1,0 +1,21 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "tsx": true,
+      "modules": true
+    }
+  },
+  "rules": {
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-var-requires": 0,
+    "no-shadow": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "no-console": 0,
+    "quotes": [ "error", "single" ]
+  },
+  "parser": "@typescript-eslint/parser"
+}
