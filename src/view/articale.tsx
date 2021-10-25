@@ -37,7 +37,7 @@ const Articale = () => {
   const searchParams = (e: string) => {
     if (e === KEY_PRESS.ENTER) {
       const data = {
-        title: (valueTitle.current! as any).value,
+        title: (valueTitle.current! as HTMLInputElement).value,
         content: (valueContent.current! as HTMLInputElement).value,
       };
       dispatch(fetchArticale(data));
